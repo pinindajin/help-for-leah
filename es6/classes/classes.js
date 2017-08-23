@@ -31,7 +31,6 @@ class Elephant extends Animal {
 }
 
 // Creating an Animal and an Elephant w/ all their properties defined
-// Log me their states
 
 var horsey = new Animal({ 
     name: 'Larry',
