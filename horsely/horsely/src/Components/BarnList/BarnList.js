@@ -24,6 +24,9 @@ export default class BarnList extends Component {
 
         return (
             <div className="container-fluid">
+                <div className="barn-list-title">
+                    Barns
+                </div>
                 { barns }
             </div>
         );

@@ -33,7 +33,7 @@ export default class Barn extends Component {
                         <div className="row">
                             <div className="clearfix">
                                 <div className="pull-left ">
-                                    <span className="barn-sub-title">{ this.state.barn.name }</span>
+                                    <span className="barn-sub-title">{ this.state.barn.address }</span>
                                 </div>
                             </div>
                         </div> 
