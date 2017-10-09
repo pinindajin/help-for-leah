@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
 import './BarnList.css';
 import Barn from '../Barn/Barn.js';
+import BarnService from '../../Services/BarnService.js';
 
 export default class BarnList extends Component {
     
     constructor(props) {
         super(props);
         
-        // Should add this to a store later
+        let barnService = new BarnService();
+        
         this.state = {
-            barns: [
-                { name: 'Saltaire Farms' },
-                { name: 'New Haven Ranch' },
-                { name: 'Lemony Fields' },
-                { name: 'Cherry Grove' }
-            ]
+            barns: barnService.getBarns()
         }
     }
 
