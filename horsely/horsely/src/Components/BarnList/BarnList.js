@@ -15,10 +15,16 @@ export default class BarnList extends Component {
         }
     }
 
+    goToBarnDetails(barnId) {
+        this.props.history.push(`/stall/${barnId}`);
+    }
+
     render () {
-        let barns = this.state.barns.map((barn, index) => {
+        let barns = this.state.barns.map((barn) => {
             return (
-                <Barn key={ index } barn={ barn }/>
+                <div key={ barn.id } onClick={ this.goToBarnDetails.bind(this, barn.id) }>
+                    <Barn barn={ barn }/>
+                </div>
             );
         });
 

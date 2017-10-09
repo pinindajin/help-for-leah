@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import BarnList from './Components/BarnList/BarnList.js';
+import Stall from './Components/StallList/StallList';
+import { HashRouter, Route } from 'react-router-dom';
+
 
 class App extends Component {
   render() {
@@ -18,7 +21,12 @@ class App extends Component {
           </div>
         </header>
         <div className="content-pad-top">
-          <BarnList/>
+          <HashRouter>
+            <div>
+              <Route exact path="/" component={ BarnList }></Route>
+              <Route exact path="/stall/:id" component={ Stall }></Route>
+            </div>
+          </HashRouter>
         </div>
       </div>
     );
