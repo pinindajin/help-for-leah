@@ -1,0 +1,26 @@
+.barn-card {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #DB5757;
+    color: #fff;
+    cursor: pointer;
+}
+
+.barn-card:hover {
+    background-color: #C04747;
+}
+
+.barn-title {
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.barn-sub-title {
+    font-size: 0.9em;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: 100;
+}
