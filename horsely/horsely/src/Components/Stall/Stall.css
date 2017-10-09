@@ -4,13 +4,8 @@
     margin-top: 5px;
     padding: 15px;
     border-radius: 15px;
-    background-color: #DB5757;
-    color: #fff;
-    cursor: pointer;
-}
-
-.stall-card:hover {
-    background-color: #C04747;
+    border: 2px solid #DB5757;
+    color: #333333;
 }
 
 .stall-title {

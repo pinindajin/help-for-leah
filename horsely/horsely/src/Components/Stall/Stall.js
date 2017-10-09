@@ -22,7 +22,7 @@ export default class Stall extends Component {
                         <div className="row">
                             <div className="clearfix">
                                 <div className="pull-left">
-                                    <span className="stall-title">{ this.state.stall.occupant.name }</span>
+                                    <span className="stall-title">{ this.state.stall.occupant.name || 'Unoccupied' }</span>
                                 </div>
                             </div>
                         </div>

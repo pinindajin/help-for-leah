@@ -76,6 +76,26 @@ export default class BarnService {
                 id: 10,
                 barnId: 3,
                 occupant: { name: 'Xena', breed: 'Quarterhorse' }
+            },
+            {  
+                id: 11,
+                barnId: 1,
+                occupant: {}
+            },
+            {  
+                id: 12,
+                barnId: 1,
+                occupant: {}
+            },
+            {  
+                id: 13,
+                barnId: 4,
+                occupant: {}
+            },
+            {  
+                id: 14,
+                barnId: 4,
+                occupant: {}
             }
         ]
     }
