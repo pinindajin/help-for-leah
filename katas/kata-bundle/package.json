@@ -1,0 +1,17 @@
+{
+  "name": "kata-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1"
+  }
+}
