@@ -13,6 +13,13 @@ This project contains a set of katas to help practice TDD development as well sh
 ```
     npm install
 ```
+- Choose tests to run by navigating to the test directory, selecting a ____.test.js file, then removing the 'x' in front of the describe method of a suite of tests you wish to run.
+```
+    xdescribe('blah blah blah', () => {...})
+    // becomes
+    describe('blah blah blah', () => {...})
+```
+
 - Run tests
 ```
     npm run test
