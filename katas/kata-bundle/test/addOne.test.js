@@ -10,7 +10,7 @@ describe('addOne()', () => {
         const result = addOne(input);
 
         // assert
-        expect(Array.isArray(result)).should.be.true;
+        expect(Array.isArray(result)).to.be.true;
     });
     it('all elements in the output array SHOULD be a number', () => {
         // arrange
