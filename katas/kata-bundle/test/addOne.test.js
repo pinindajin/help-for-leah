@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const addOne = require('../app').addOne;
 
-describe('addOne()', () => {
+xdescribe('addOne()', () => {
     it('the output SHOULD be an array', () => {
         // arrange
         const input = [4, 5, 3];

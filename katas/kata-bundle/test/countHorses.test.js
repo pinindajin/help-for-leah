@@ -4,7 +4,7 @@ const countHorses = require('../app').countHorses;
 // initial value provided at function below tests
 const BARNS = initBarns();
 
-describe('addHorses()', () => {
+xdescribe('addHorses()', () => {
     it('the output SHOULD be a number', () => {
         // arrange
         const input = BARNS;

@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const stringToNATOPhonetic = require('../app').stringToNATOPhonetic;
 
-describe('stringToNATOPhonetic()', () => {
+xdescribe('stringToNATOPhonetic()', () => {
     it('an input of type string that contains a non alphabetic character SHOULD fail', () => {
         // arrange
         const input = 'tue%j';
