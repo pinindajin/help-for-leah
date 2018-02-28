@@ -39,7 +39,7 @@ xdescribe('stringToNATOPhonetic()', () => {
         const result = addOne(input);
 
         // assert
-        expect(typeof(result)).should.equal(expected);
+        expect(typeof(result)).to.equal(expected);
     });
     it('input string of tyah SHOULD PASS', () => {
         // arrange
