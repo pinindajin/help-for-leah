@@ -21,7 +21,7 @@ describe('addOne()', () => {
 
         // assert
         result.forEach(v => {
-            expect(typeof(v)).should.equal('number');
+            expect(typeof(v)).to.equal('number');
         });
     });
     it('an input array of whole integers SHOULD PASS', () => {
@@ -41,7 +41,7 @@ describe('addOne()', () => {
     it('an array with 1 value SHOULD PASS', () => {
         // arrange
         const input = [6];
-        const expected = '7';
+        const expected = 7;
         const expectedLength = 1;
 
         // act
